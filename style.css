@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@400;500;600;700;800 & display=swap');
+:root{
+    --font-poppins: 'Poppins', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-poppins);
+}
+html,body{
+    font-size: 62.5%;
+}
+
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: #181818;
+    display: flex;
+    justify-content: space-between;
+}
+.hero__title{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero__form-container{
+    background-color: #181818;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:4rem;
+}
+.form{
+    background-color: rgb(170, 36, 65);
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.form__img-container{
+    width: 100%;
+    height: 40%;
+
+}
+.form__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* object-position: 0rem -4rem; */
+}
+
+.form__inputs-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+    width: 100%;
+    height: 50%;
+    padding-bottom: 2rem;
+
+}
+.form__label{
+    font-size: 1.8rem;
+    text-align: left;
+    width: 60%;
+    color: #fff;
+    font-weight: bold;
+}
+.form__input{
+    width: 60%;
+    height: 18%;
+    border-radius: .5rem;
+    outline: none;
+    /* border: .2rem solid #182019; */
+    border: none;
+    font-size: 1.2rem;
+    color: #000;
+    padding-left: 1rem;
+}
+
+.btn{
+    width: 13rem;
+    height: 3.2rem;
+    border-radius: 1rem;
+    border: none;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+.btn:active{
+    background-color: rgb(184, 33, 33);
+    color: #fff;
+
+}
+.hero__img-container{
+    background-color: #023;
+    width: 50%;
+    height: 100%;
+}
+.hero__img{
+    width: 100%;
+    height: 100%;
+}
